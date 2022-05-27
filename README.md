@@ -1,5 +1,5 @@
 # EmailReader
-Simple lector de mensajes con Python y el API de Gmail, adicionalmente se incluye el paquete de terceros win10toast para agregar una notificación push en Windows 10, una solución elegante y sencilla que puede ejecutarse con un archivo .bat e incluso configurarlo para que se ejecute al iniciar Windows.
+Simple lector de mensajes con Python y el API de Gmail, utiliza un filtro estatico que puede ser una palabra dentro de un correo o un [filtro](https://developers.google.com/gmail/api/guides/filtering) usado en gmail, adicionalmente se incluye el paquete de terceros win10toast para agregar una notificación push en Windows 10, una solución elegante y sencilla que puede ejecutarse con un archivo .bat e incluso configurarlo para que se ejecute al iniciar Windows. El lector notifica del correo más reciente que haga match con el query especificado dentro de los ultimos 2 días desde la ejecución del script.
 
 ## Requisitos
 
